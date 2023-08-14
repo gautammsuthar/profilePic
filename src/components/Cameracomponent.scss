@@ -1,0 +1,25 @@
+.camera-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 1vh;
+    width: 1vh;
+
+    .webcam {
+        border: 2px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .capture-click {
+        color: green;
+        background-color: green;
+        display: block;
+        height: 900px;
+        width: 50px;
+        border-radius: 50%;
+        border: 1px solid green;
+    }
+}
+
+
